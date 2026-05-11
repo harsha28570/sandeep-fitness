@@ -252,9 +252,11 @@ function App() {
           </div>
           <div className="about-grid">
           <div className="coach-photo">           
-   <img src="/images/coach.jpg"          
-        alt="Coach Sandeep" />           
- </div>
+   <img 
+     src={`/images/coach.jpg?v=${Date.now()}`}         
+     alt="Coach Sandeep" 
+   />           
+</div>
             <div className="about-copy reveal">
               <h3>Hi, I’m Sandeep — your strategy partner for a fitter life.</h3>
               <p>
